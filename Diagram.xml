@@ -1,6 +1,6 @@
-<mxfile modified="2019-11-19T10:39:01.515Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="sObs-wXylkS4SyZl_lLD" version="12.2.6" type="github" pages="9">
+<mxfile modified="2019-11-19T16:33:42.007Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="9jxUlP2uf_rUnYgzgluO" version="12.2.7" type="github" pages="9">
   <diagram id="c8f99262-a85c-8a7f-60a9-6ab50372dd61" name="IOC sequence--spring-boot">
-    <mxGraphModel dx="3747" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="3761" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -1907,50 +1907,50 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qZumHf2vZpyOzjIWQE8m" name="zookeeper">
-    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="QWFmbw1r0KqvF3veve1Z-0"/>
         <mxCell id="QWFmbw1r0KqvF3veve1Z-1" parent="QWFmbw1r0KqvF3veve1Z-0"/>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-0" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;NIOServerCnxnFactory&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-0" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;NIOServerCnxnFactory&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
           <mxGeometry x="360" y="200" width="150" height="490" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="O4gFXNwwfckqwxWeTEr6-0">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="O4gFXNwwfckqwxWeTEr6-0" vertex="1">
           <mxGeometry x="70" y="110" width="10" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-1" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;QuorumPeerMain&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-1" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;QuorumPeerMain&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
           <mxGeometry x="120" y="200" width="120" height="480" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-3" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="O4gFXNwwfckqwxWeTEr6-1">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-3" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;" parent="O4gFXNwwfckqwxWeTEr6-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="60" y="120" as="sourcePoint"/>
             <mxPoint x="310" y="120" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="O4gFXNwwfckqwxWeTEr6-1">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="O4gFXNwwfckqwxWeTEr6-1" vertex="1">
           <mxGeometry x="55" y="110" width="10" height="350" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-8" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.5;exitY=0.257;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="O4gFXNwwfckqwxWeTEr6-1" source="O4gFXNwwfckqwxWeTEr6-4">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-8" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.5;exitY=0.257;exitDx=0;exitDy=0;exitPerimeter=0;" parent="O4gFXNwwfckqwxWeTEr6-1" source="O4gFXNwwfckqwxWeTEr6-4" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="110" y="200" as="sourcePoint"/>
             <mxPoint x="560" y="200" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-2" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;QuorumPeer&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-2" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;QuorumPeer&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
           <mxGeometry x="640" y="200" width="100" height="480" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="O4gFXNwwfckqwxWeTEr6-2">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="O4gFXNwwfckqwxWeTEr6-2" vertex="1">
           <mxGeometry x="45" y="195" width="10" height="175" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-13" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="O4gFXNwwfckqwxWeTEr6-2">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-13" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;" parent="O4gFXNwwfckqwxWeTEr6-2" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="60" y="210" as="sourcePoint"/>
             <mxPoint x="280" y="210" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="O4gFXNwwfckqwxWeTEr6-2">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="O4gFXNwwfckqwxWeTEr6-2" vertex="1">
           <mxGeometry x="55" y="303" width="10" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-19" value="start()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="O4gFXNwwfckqwxWeTEr6-18" parent="O4gFXNwwfckqwxWeTEr6-2">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-19" value="start()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="O4gFXNwwfckqwxWeTEr6-2" target="O4gFXNwwfckqwxWeTEr6-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="283" as="sourcePoint"/>
             <Array as="points">
@@ -1958,77 +1958,155 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-31" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="O4gFXNwwfckqwxWeTEr6-2">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-31" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;" parent="O4gFXNwwfckqwxWeTEr6-2" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="60" y="250" as="sourcePoint"/>
             <mxPoint x="480" y="250" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-6" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.5;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="QWFmbw1r0KqvF3veve1Z-1" target="O4gFXNwwfckqwxWeTEr6-4">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-6" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.5;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;" parent="QWFmbw1r0KqvF3veve1Z-1" target="O4gFXNwwfckqwxWeTEr6-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="430" y="340" as="sourcePoint"/>
             <mxPoint x="350" y="340" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-9" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;FileTxnSnapLog&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-9" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;FileTxnSnapLog&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
           <mxGeometry x="860" y="200" width="140" height="480" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="O4gFXNwwfckqwxWeTEr6-9">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="O4gFXNwwfckqwxWeTEr6-9" vertex="1">
           <mxGeometry x="65" y="195" width="10" height="45" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-11" value="&lt;span style=&quot;white-space: nowrap&quot;&gt;默认选举类型 3&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-11" value="&lt;span style=&quot;white-space: nowrap&quot;&gt;默认选举类型 3&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
           <mxGeometry x="580" y="420" width="100" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-14" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-14" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="QWFmbw1r0KqvF3veve1Z-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="920" y="420" as="sourcePoint"/>
             <mxPoint x="700" y="420" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-16" value="extends Thread" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-16" value="extends Thread" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
           <mxGeometry x="640" y="140" width="100" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-20" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;QuorumPeer&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
-          <mxGeometry x="140" y="760" width="120" height="570" as="geometry"/>
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-20" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;QuorumPeer&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
+          <mxGeometry x="135" y="740" width="120" height="770" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-22" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;loadDataBase()&lt;/pre&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="O4gFXNwwfckqwxWeTEr6-20">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-22" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;loadDataBase()&lt;/pre&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="O4gFXNwwfckqwxWeTEr6-20" vertex="1">
           <mxGeometry x="55" y="110" width="10" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-27" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;startServerCnxnFactory()&lt;/pre&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="O4gFXNwwfckqwxWeTEr6-20">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-27" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;startServerCnxnFactory()&lt;/pre&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="O4gFXNwwfckqwxWeTEr6-20" vertex="1">
           <mxGeometry x="55" y="230" width="10" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-28" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;startLeaderElection()&lt;/pre&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="O4gFXNwwfckqwxWeTEr6-20">
-          <mxGeometry x="55" y="360" width="10" height="80" as="geometry"/>
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-28" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;startLeaderElection()&lt;/pre&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="O4gFXNwwfckqwxWeTEr6-20" vertex="1">
+          <mxGeometry x="55" y="480" width="10" height="150" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-21" value="集群节点的启动具体流程：&lt;br&gt;1.加载数据库&lt;br&gt;2.启动事务管理&lt;br&gt;3.开始选举主节点" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-3" value="start()" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="O4gFXNwwfckqwxWeTEr6-20">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="70" y="240" as="sourcePoint"/>
+            <mxPoint x="550" y="240" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-21" value="集群节点的启动具体流程：&lt;br&gt;1.加载数据库&lt;br&gt;2.启动事务管理&lt;br&gt;3.开始选举主节点" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
           <mxGeometry x="30" y="750" width="100" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-29" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;ZKDatabase&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-29" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;ZKDatabase&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
           <mxGeometry x="1080" y="200" width="100" height="480" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="O4gFXNwwfckqwxWeTEr6-29">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="O4gFXNwwfckqwxWeTEr6-29" vertex="1">
           <mxGeometry x="45" y="240" width="10" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-32" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-32" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="QWFmbw1r0KqvF3veve1Z-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1120" y="460" as="sourcePoint"/>
             <mxPoint x="700" y="460" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-33" value="数据管理器" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-33" value="数据管理器" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
           <mxGeometry x="820" y="160" width="100" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-34" value="内存数据库" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-34" value="内存数据库" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
           <mxGeometry x="1040" y="160" width="100" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-36" value="从硬盘加载数据文件，snap快照文件和 log事务日志文件，1.restore 数据到内存数据库中&lt;br&gt;2.从事务日志文件恢复最大的zxid.&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
-          <mxGeometry x="260" y="870" width="170" height="70" as="geometry"/>
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-36" value="从硬盘加载数据文件，snap快照文件和 log事务日志文件，1.restore 数据到内存数据库中&lt;br&gt;2.从事务日志文件恢复最大的zxid.&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
+          <mxGeometry x="220" y="890" width="170" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-37" value="序列化快照：对每个数据节点 对象同步synchronized. 保证每个节点的数据是一致的。&lt;br&gt;深度递归数据树。" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
-          <mxGeometry x="440" y="760" width="150" height="110" as="geometry"/>
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-37" value="序列化快照：对每个数据节点 对象同步synchronized. 保证每个节点的数据是一致的。&lt;br&gt;深度递归数据树。" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
+          <mxGeometry x="410" y="790" width="140" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-38" value="事务日志文件：&lt;br&gt;&lt;br&gt;acceptedEpoch , currentEpoch&lt;br&gt;log.zxid" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
-          <mxGeometry x="600" y="760" width="140" height="110" as="geometry"/>
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-38" value="事务日志文件：&lt;br&gt;&lt;br&gt;acceptedEpoch , currentEpoch&lt;br&gt;log.zxid" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
+          <mxGeometry x="410" y="880" width="140" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-0" value="&lt;pre style=&quot;background-color: rgb(242 , 242 , 242) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;SelectorThread&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+          <mxGeometry x="600" y="740" width="200" height="790" as="geometry"/>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-4" value="start()" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pn_Zkb6WxNJzWt7y8XBr-0">
+          <mxGeometry x="95" y="235" width="10" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-6" value="select()" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pn_Zkb6WxNJzWt7y8XBr-0">
+          <mxGeometry x="95" y="340" width="10" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-7" value="schedule()" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="pn_Zkb6WxNJzWt7y8XBr-0">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="105" y="350" as="sourcePoint"/>
+            <mxPoint x="320" y="350" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-8" value="ZK 的请求处理线程，数目为 cores/2 的平方根&lt;br&gt;&lt;br&gt;一次select 出来的 selectionKey 处理完之前，是不会再次对这个key select 的." style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="pn_Zkb6WxNJzWt7y8XBr-0">
+          <mxGeometry x="100" y="50" width="100" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-1" value="NIO 处理线程：分发到workerpool。工作线程数默认 2*cores&lt;br&gt;fixedThreadPool ,无界队列。&lt;br&gt;但由于对于每一个host，只有一个SelectionKey,因此总的上界是host数目。" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+          <mxGeometry x="930" y="785" width="130" height="135" as="geometry"/>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-2" value="ZooKeeperServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+          <mxGeometry x="1066" y="740" width="115" height="780" as="geometry"/>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-14" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;processPacket()&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pn_Zkb6WxNJzWt7y8XBr-2">
+          <mxGeometry x="52" y="377" width="10" height="58" as="geometry"/>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-5" value="WorkerService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+          <mxGeometry x="880" y="740" width="100" height="790" as="geometry"/>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-9" value="execute()" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pn_Zkb6WxNJzWt7y8XBr-5">
+          <mxGeometry x="45" y="350" width="10" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-12" value="" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="pn_Zkb6WxNJzWt7y8XBr-5" source="pn_Zkb6WxNJzWt7y8XBr-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="390" as="sourcePoint"/>
+            <mxPoint x="240" y="390" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-13" value="提交异步处理" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+          <mxGeometry x="786" y="1097" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-17" value="反序列化二进制报文，处理请求.&lt;br&gt;&lt;br&gt;Server 是在选举之后才启动。&lt;br&gt;启动之后才会开始处理请求。否则将会阻塞调用线程，直到被主线程启动" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+          <mxGeometry x="1131" y="815" width="100" height="135" as="geometry"/>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-18" value="将读到的完整的tcp&lt;br&gt;报文委派处理" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+          <mxGeometry x="960" y="1130" width="120" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-22" value="刚开始是LOOKING状态，进行选举投票&lt;br&gt;&amp;lt;sid,zxid,epoch&amp;gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+          <mxGeometry x="270" y="1280" width="120" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-23" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;QuorumPeer&lt;/pre&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;shape=umlLifeline;participant=label;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;recursiveResize=0;container=1;collapsible=0;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+          <mxGeometry x="155" y="1560" width="100" height="440" as="geometry"/>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-27" value="run()" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pn_Zkb6WxNJzWt7y8XBr-23">
+          <mxGeometry x="45" y="120" width="10" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-24" value="选举投票流程" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+          <mxGeometry x="80" y="1530" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-25" value="&lt;pre style=&quot;background-color: rgb(242 , 242 , 242) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;FastLeaderElection&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+          <mxGeometry x="460" y="1560" width="140" height="460" as="geometry"/>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-26" value="默认选举算法" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+          <mxGeometry x="480" y="1530" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-29" value="主线程无限循环中&lt;br&gt;检查自身节点状态&lt;br&gt;进行一系列处理。&lt;br&gt;如：&lt;br&gt;LOOKING：则进行选举投票" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+          <mxGeometry x="220" y="1680" width="100" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-34" value="有2个线程，一个消息发送线程，一个消息接收线程。&lt;br&gt;各自持有一个队列缓冲消息" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+          <mxGeometry x="540" y="1610" width="100" height="80" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
