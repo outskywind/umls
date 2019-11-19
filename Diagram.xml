@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-18T11:18:50.377Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="YHXv-OdVhTFnLTfK85Jo" version="12.2.6" type="github" pages="9">
+<mxfile modified="2019-11-19T10:39:01.515Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="sObs-wXylkS4SyZl_lLD" version="12.2.6" type="github" pages="9">
   <diagram id="c8f99262-a85c-8a7f-60a9-6ab50372dd61" name="IOC sequence--spring-boot">
     <mxGraphModel dx="3747" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
@@ -2021,8 +2021,14 @@
         <mxCell id="O4gFXNwwfckqwxWeTEr6-34" value="内存数据库" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
           <mxGeometry x="1040" y="160" width="100" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="O4gFXNwwfckqwxWeTEr6-36" value="从硬盘加载数据文件，snap快照文件和 log事务日志文件，restore 数据到内存数据库中" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
-          <mxGeometry x="265" y="860" width="170" height="70" as="geometry"/>
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-36" value="从硬盘加载数据文件，snap快照文件和 log事务日志文件，1.restore 数据到内存数据库中&lt;br&gt;2.从事务日志文件恢复最大的zxid.&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+          <mxGeometry x="260" y="870" width="170" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-37" value="序列化快照：对每个数据节点 对象同步synchronized. 保证每个节点的数据是一致的。&lt;br&gt;深度递归数据树。" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+          <mxGeometry x="440" y="760" width="150" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="O4gFXNwwfckqwxWeTEr6-38" value="事务日志文件：&lt;br&gt;&lt;br&gt;acceptedEpoch , currentEpoch&lt;br&gt;log.zxid" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+          <mxGeometry x="600" y="760" width="140" height="110" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
