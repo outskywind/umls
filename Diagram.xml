@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-19T16:33:42.007Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="9jxUlP2uf_rUnYgzgluO" version="12.2.7" type="github" pages="9">
+<mxfile modified="2019-11-19T16:42:04.005Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="6mvrhZ_VuAMv7LCs6UOY" version="12.2.7" type="github" pages="9">
   <diagram id="c8f99262-a85c-8a7f-60a9-6ab50372dd61" name="IOC sequence--spring-boot">
     <mxGraphModel dx="3761" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
@@ -2093,11 +2093,20 @@
         <mxCell id="pn_Zkb6WxNJzWt7y8XBr-27" value="run()" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pn_Zkb6WxNJzWt7y8XBr-23">
           <mxGeometry x="45" y="120" width="10" height="200" as="geometry"/>
         </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-36" value="" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="pn_Zkb6WxNJzWt7y8XBr-23" target="pn_Zkb6WxNJzWt7y8XBr-35">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="55" y="250" as="sourcePoint"/>
+            <mxPoint x="135" y="250" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="pn_Zkb6WxNJzWt7y8XBr-24" value="选举投票流程" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
           <mxGeometry x="80" y="1530" width="90" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="pn_Zkb6WxNJzWt7y8XBr-25" value="&lt;pre style=&quot;background-color: rgb(242 , 242 , 242) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;FastLeaderElection&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
           <mxGeometry x="460" y="1560" width="140" height="460" as="geometry"/>
+        </mxCell>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-35" value="&lt;pre style=&quot;background-color: rgb(242 , 242 , 242) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;lookForLeader()&lt;/pre&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pn_Zkb6WxNJzWt7y8XBr-25">
+          <mxGeometry x="65" y="240" width="10" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="pn_Zkb6WxNJzWt7y8XBr-26" value="默认选举算法" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
           <mxGeometry x="480" y="1530" width="90" height="20" as="geometry"/>
