@@ -1,6 +1,6 @@
-<mxfile modified="2019-11-20T10:49:16.155Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="cYpmilepJLVuN3DO7MbL" version="12.2.7" type="github" pages="9">
+<mxfile modified="2019-11-20T15:43:13.948Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="CYFxEmsK76EN0gtbCLLs" version="12.2.7" type="github" pages="9">
   <diagram id="c8f99262-a85c-8a7f-60a9-6ab50372dd61" name="IOC sequence--spring-boot">
-    <mxGraphModel dx="3747" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="3761" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -222,7 +222,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="50806bb0-83f7-b41c-cf7c-7765a12d23d6" name="IOC class-digram">
-    <mxGraphModel dx="1456" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -1907,7 +1907,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qZumHf2vZpyOzjIWQE8m" name="zookeeper">
-    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="QWFmbw1r0KqvF3veve1Z-0"/>
         <mxCell id="QWFmbw1r0KqvF3veve1Z-1" parent="QWFmbw1r0KqvF3veve1Z-0"/>
@@ -2034,7 +2034,7 @@
           <mxGeometry x="410" y="790" width="140" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="O4gFXNwwfckqwxWeTEr6-38" value="事务日志文件：&lt;br&gt;&lt;br&gt;acceptedEpoch , currentEpoch&lt;br&gt;log.zxid" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
-          <mxGeometry x="410" y="880" width="140" height="80" as="geometry"/>
+          <mxGeometry x="410" y="880" width="100" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="pn_Zkb6WxNJzWt7y8XBr-0" value="&lt;pre style=&quot;background-color: rgb(242 , 242 , 242) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;SelectorThread&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
           <mxGeometry x="600" y="740" width="200" height="790" as="geometry"/>
@@ -2084,8 +2084,8 @@
         <mxCell id="pn_Zkb6WxNJzWt7y8XBr-18" value="将读到的完整的tcp&lt;br&gt;报文委派处理" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
           <mxGeometry x="960" y="1130" width="120" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-22" value="刚开始是LOOKING状态，进行选举投票&lt;br&gt;&amp;lt;myid,zxid,epoch&amp;gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
-          <mxGeometry x="270" y="1280" width="120" height="70" as="geometry"/>
+        <mxCell id="pn_Zkb6WxNJzWt7y8XBr-22" value="刚开始是LOOKING状态，进行选举投票&lt;br&gt;&amp;lt;myid,zxid,epoch&amp;gt;，对于刚加入的启动的节点 值为&amp;lt;myid,0,0&amp;gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
+          <mxGeometry x="270" y="1280" width="120" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="pn_Zkb6WxNJzWt7y8XBr-23" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;QuorumPeer&lt;/pre&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;shape=umlLifeline;participant=label;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;recursiveResize=0;container=1;collapsible=0;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
           <mxGeometry x="155" y="1560" width="100" height="440" as="geometry"/>
@@ -2108,13 +2108,13 @@
         <mxCell id="pn_Zkb6WxNJzWt7y8XBr-35" value="&lt;pre style=&quot;background-color: rgb(242 , 242 , 242) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;lookForLeader()&lt;/pre&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pn_Zkb6WxNJzWt7y8XBr-25" vertex="1">
           <mxGeometry x="65" y="240" width="10" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="Iws5tO84-DzOcNggYute-8" value="创建并启动消息线程，消息线程发送消息到 manager 的消息队列" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="pn_Zkb6WxNJzWt7y8XBr-25">
+        <mxCell id="Iws5tO84-DzOcNggYute-8" value="创建并启动消息线程，消息线程发送消息到 manager 的消息队列" style="html=1;verticalAlign=bottom;endArrow=block;" parent="pn_Zkb6WxNJzWt7y8XBr-25" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="80" y="170" as="sourcePoint"/>
             <mxPoint x="450" y="170" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Iws5tO84-DzOcNggYute-9" value="" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="pn_Zkb6WxNJzWt7y8XBr-25">
+        <mxCell id="Iws5tO84-DzOcNggYute-9" value="" style="html=1;verticalAlign=bottom;endArrow=block;" parent="pn_Zkb6WxNJzWt7y8XBr-25" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="80" y="280" as="sourcePoint"/>
             <mxPoint x="129" y="281" as="targetPoint"/>
@@ -2129,32 +2129,41 @@
         <mxCell id="pn_Zkb6WxNJzWt7y8XBr-34" value="有2个线程，一个消息发送线程，一个消息接收线程。&lt;br&gt;各自持有一个队列缓冲消息" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
           <mxGeometry x="540" y="1610" width="100" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="Iws5tO84-DzOcNggYute-1" value="1.首先发起选举投票 &amp;lt;myid,zxid,epoch&amp;gt;，需要等待超过半数的响应，&lt;br&gt;2. 这个过程会建立长连接，但是只与比自己myid 小的建立连接" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+        <mxCell id="Iws5tO84-DzOcNggYute-1" value="1.首先发起选举投票 &amp;lt;myid,zxid,epoch&amp;gt;，需要等待超过半数的响应，&lt;br&gt;2. 这个过程会建立长连接，但是只与比自己myid 小的建立连接" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
           <mxGeometry x="590" y="1795" width="120" height="110" as="geometry"/>
         </mxCell>
-        <mxCell id="Iws5tO84-DzOcNggYute-3" value="LOOKING：" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+        <mxCell id="Iws5tO84-DzOcNggYute-3" value="LOOKING：" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
           <mxGeometry x="240" y="1815" width="80" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="Iws5tO84-DzOcNggYute-4" value="初次启动加入集群时：" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+        <mxCell id="Iws5tO84-DzOcNggYute-4" value="初次启动加入集群时：" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
           <mxGeometry x="567" y="1775" width="140" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="Iws5tO84-DzOcNggYute-5" value="QuorumCnxManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+        <mxCell id="Iws5tO84-DzOcNggYute-5" value="QuorumCnxManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
           <mxGeometry x="855" y="1560" width="130" height="590" as="geometry"/>
         </mxCell>
-        <mxCell id="Iws5tO84-DzOcNggYute-6" value="负责集群之间选举通信，连接管理。&lt;br&gt;&lt;br&gt;每一对节点一个请求发送队列，调用者放到队列返回，会异步socket发送&lt;br&gt;&lt;br&gt;有一个接收队列，接收所有的请求和响应&lt;br&gt;&lt;br&gt;使用ByteBuffer 避免native memory与堆 之间的拷贝" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+        <mxCell id="Iws5tO84-DzOcNggYute-6" value="负责集群之间选举通信，连接管理。&lt;br&gt;&lt;br&gt;每一对节点一个请求发送队列，调用者放到队列返回，会异步socket发送&lt;br&gt;&lt;br&gt;有一个接收队列，接收所有的请求和响应&lt;br&gt;&lt;br&gt;使用ByteBuffer 避免native memory与堆 之间的拷贝" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
           <mxGeometry x="920" y="1610" width="100" height="210" as="geometry"/>
         </mxCell>
-        <mxCell id="Iws5tO84-DzOcNggYute-10" value="" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+        <mxCell id="Iws5tO84-DzOcNggYute-10" value="" style="html=1;verticalAlign=bottom;endArrow=block;" parent="QWFmbw1r0KqvF3veve1Z-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="710" y="1830" as="sourcePoint"/>
-            <mxPoint x="710" y="1730" as="targetPoint"/>
+            <mxPoint x="670" y="1800" as="sourcePoint"/>
+            <mxPoint x="670" y="1730" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Iws5tO84-DzOcNggYute-11" value="如果manager没有建立目标host&lt;br&gt;连接,将会触发manager建立连接" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+        <mxCell id="Iws5tO84-DzOcNggYute-11" value="如果manager没有建立目标host&lt;br&gt;连接,将会触发manager建立连接" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
           <mxGeometry x="730" y="1740" width="190" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="Iws5tO84-DzOcNggYute-13" value="&lt;font style=&quot;font-size: 9px&quot;&gt;也有2种线程&lt;br&gt;&lt;/font&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;SendWorker &lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34;&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;RecvWorker&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;一对节点连接&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;一个send线程和&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;receive线程&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
-          <mxGeometry x="1030" y="1590" width="100" height="150" as="geometry"/>
+        <mxCell id="9kcRaCS_7VIZ8msU46DE-0" value="currentEpoch 新启动的加入的节点上没有currentEpoch 文件，因此初始0，&lt;br&gt;zxid 初始也为0" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+          <mxGeometry x="510" y="870" width="100" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="9kcRaCS_7VIZ8msU46DE-1" value="currentEpoch 新启动的加入的节点上没有currentEpoch 文件，因此默认取" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+          <mxGeometry x="700" y="890" width="100" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="9kcRaCS_7VIZ8msU46DE-3" value="&lt;div&gt;也有2种线程&lt;/div&gt;&lt;div&gt;SendWorker&amp;nbsp;&lt;/div&gt;&lt;div&gt;RecvWorker&lt;/div&gt;&lt;div&gt;一对节点连接&lt;/div&gt;&lt;div&gt;一个send线程和&lt;/div&gt;&lt;div&gt;receive线程&lt;/div&gt;&lt;div&gt;只有大的那一方才会发起建立socket,才会持有这一对线程&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+          <mxGeometry x="1026" y="1610" width="94" height="165" as="geometry"/>
+        </mxCell>
+        <mxCell id="9kcRaCS_7VIZ8msU46DE-4" value="初始化时，根据解析配置文件的 选举端口，启动监听线程 Listener,&lt;br&gt;监听选举请求。" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+          <mxGeometry x="1126" y="1610" width="100" height="115" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
