@@ -1,6 +1,6 @@
-<mxfile modified="2019-11-20T15:45:35.884Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="VAr0MN1Przn0ise4UF8j" version="12.2.7" type="github" pages="9">
+<mxfile modified="2019-11-21T10:37:18.766Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="di5D87rpRFK_mRDf9uG-" version="12.2.7" type="github" pages="9">
   <diagram id="c8f99262-a85c-8a7f-60a9-6ab50372dd61" name="IOC sequence--spring-boot">
-    <mxGraphModel dx="3761" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="3747" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -222,7 +222,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="50806bb0-83f7-b41c-cf7c-7765a12d23d6" name="IOC class-digram">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -381,7 +381,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cd951bb8-0b33-3389-f7a5-843cb3336302" name="netty">
-    <mxGraphModel dx="1456" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -1907,7 +1907,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qZumHf2vZpyOzjIWQE8m" name="zookeeper">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="QWFmbw1r0KqvF3veve1Z-0"/>
         <mxCell id="QWFmbw1r0KqvF3veve1Z-1" parent="QWFmbw1r0KqvF3veve1Z-0"/>
@@ -2088,7 +2088,7 @@
           <mxGeometry x="210" y="1190" width="120" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="pn_Zkb6WxNJzWt7y8XBr-23" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;QuorumPeer&lt;/pre&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;shape=umlLifeline;participant=label;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;recursiveResize=0;container=1;collapsible=0;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
-          <mxGeometry x="155" y="1560" width="100" height="440" as="geometry"/>
+          <mxGeometry x="155" y="1560" width="100" height="600" as="geometry"/>
         </mxCell>
         <mxCell id="pn_Zkb6WxNJzWt7y8XBr-27" value="run()" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pn_Zkb6WxNJzWt7y8XBr-23" vertex="1">
           <mxGeometry x="45" y="120" width="10" height="260" as="geometry"/>
@@ -2153,14 +2153,14 @@
         <mxCell id="Iws5tO84-DzOcNggYute-11" value="如果manager没有建立目标host&lt;br&gt;连接,将会触发manager建立连接" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
           <mxGeometry x="730" y="1740" width="190" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="9kcRaCS_7VIZ8msU46DE-0" value="currentEpoch 新启动的加入的节点上没有currentEpoch 文件，因此初始0，&lt;br&gt;zxid 初始也为0" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
+        <mxCell id="9kcRaCS_7VIZ8msU46DE-0" value="currentEpoch 新启动的加入的节点上没有currentEpoch 文件，因此初始0，&lt;br&gt;zxid 初始也为0" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
           <mxGeometry x="510" y="870" width="100" height="90" as="geometry"/>
         </mxCell>
-        <mxCell id="9kcRaCS_7VIZ8msU46DE-3" value="&lt;div&gt;也有2种线程&lt;/div&gt;&lt;div&gt;SendWorker&amp;nbsp;&lt;/div&gt;&lt;div&gt;RecvWorker&lt;/div&gt;&lt;div&gt;一对节点连接&lt;/div&gt;&lt;div&gt;一个send线程和&lt;/div&gt;&lt;div&gt;receive线程&lt;/div&gt;&lt;div&gt;只有大的那一方才会发起建立socket,才会持有这一对线程&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
-          <mxGeometry x="1026" y="1610" width="94" height="165" as="geometry"/>
+        <mxCell id="9kcRaCS_7VIZ8msU46DE-3" value="&lt;div&gt;也有2种线程&lt;/div&gt;&lt;div&gt;SendWorker&amp;nbsp;&lt;/div&gt;&lt;div&gt;RecvWorker&lt;/div&gt;&lt;div&gt;一对节点连接&lt;/div&gt;&lt;div&gt;一个send线程和&lt;/div&gt;&lt;div&gt;receive线程&lt;/div&gt;&lt;div&gt;只有大的那一方才会发起建立socket,才会持有这一对线程&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
+          <mxGeometry x="1020" y="1610" width="94" height="165" as="geometry"/>
         </mxCell>
-        <mxCell id="9kcRaCS_7VIZ8msU46DE-4" value="初始化时，根据解析配置文件的 选举端口，启动监听线程 Listener,&lt;br&gt;监听选举请求。" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
-          <mxGeometry x="1126" y="1610" width="100" height="115" as="geometry"/>
+        <mxCell id="9kcRaCS_7VIZ8msU46DE-4" value="初始化时，根据解析配置文件的 选举端口，启动监听线程 Listener,&lt;br&gt;监听选举端口请求。&lt;br&gt;接收到建立连接的请求后会建立连接socket,并启动一对 send 和receive 线程" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="QWFmbw1r0KqvF3veve1Z-1" vertex="1">
+          <mxGeometry x="1114" y="1610" width="116" height="160" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
