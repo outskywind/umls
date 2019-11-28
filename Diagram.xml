@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-22T10:46:45.134Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="xOWrC1abAbFUpMlGwlYx" version="12.2.7" type="github" pages="9">
+<mxfile modified="2019-11-28T07:22:54.833Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="fCqf9zjz1ksEsJVvkqqu" version="12.3.0" type="github" pages="10">
   <diagram id="c8f99262-a85c-8a7f-60a9-6ab50372dd61" name="IOC sequence--spring-boot">
     <mxGraphModel dx="3747" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
@@ -104,10 +104,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="126" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;" parent="29" target="88" edge="1">
+        <mxCell id="126" value="" style="html=1;verticalAlign=bottom;endArrow=block;" parent="29" target="88" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="55" y="562" as="sourcePoint"/>
             <mxPoint x="135" y="562" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2v1esG3-C-0sFDUlo4-p-128" value="refreshContext()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.4;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="29" target="2v1esG3-C-0sFDUlo4-p-129">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="65" y="722" as="sourcePoint"/>
+            <mxPoint x="1255" y="722" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="35" value="&lt;pre&gt;&lt;pre&gt;&lt;span&gt;EventPublishingRunListener&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;align=center;" parent="1" vertex="1">
@@ -120,17 +126,7 @@
           <mxGeometry x="100" y="558" width="10" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="89" value="&lt;pre&gt;&lt;span&gt;contextLoaded&lt;/span&gt;&lt;/pre&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;align=left;" parent="35" vertex="1">
-          <mxGeometry x="100" y="802" width="10" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="58" value="&lt;pre&gt;&lt;span&gt;refreshContext()&lt;/span&gt;&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" source="36" edge="1">
-          <mxGeometry x="1" y="14" relative="1" as="geometry">
-            <mxPoint x="-2125" y="1398" as="sourcePoint"/>
-            <mxPoint x="10" y="-10" as="offset"/>
-            <mxPoint x="-2150" y="1570" as="targetPoint"/>
-            <Array as="points">
-              <mxPoint x="-2150" y="1570"/>
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="100" y="872" width="10" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="61" value="&lt;pre&gt;&lt;span&gt;environmentPrepared()&lt;/span&gt;&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.1;entryY=0.017;entryPerimeter=0;exitX=1;exitY=0.275;exitPerimeter=0;" parent="1" source="109" target="60" edge="1">
           <mxGeometry x="-0.0213" relative="1" as="geometry">
@@ -202,7 +198,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="115" value="&lt;pre&gt;&lt;span&gt;AnnotationConfigApplicationContext&lt;/span&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-1122" y="835" width="210" height="1122" as="geometry"/>
+          <mxGeometry x="-1200" y="840" width="210" height="1122" as="geometry"/>
         </mxCell>
         <mxCell id="116" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;align=left;" parent="115" vertex="1">
           <mxGeometry x="100" y="455" width="10" height="40" as="geometry"/>
@@ -217,6 +213,26 @@
             </Array>
             <mxPoint as="offset"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2v1esG3-C-0sFDUlo4-p-129" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="115">
+          <mxGeometry x="100" y="714" width="10" height="396" as="geometry"/>
+        </mxCell>
+        <mxCell id="2v1esG3-C-0sFDUlo4-p-134" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="115">
+          <mxGeometry x="108" y="800" width="10" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="2v1esG3-C-0sFDUlo4-p-135" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;invokeBeanFactoryPostProcessors&lt;/span&gt;&lt;/pre&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="2v1esG3-C-0sFDUlo4-p-134" parent="115">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="113" y="780" as="sourcePoint"/>
+            <Array as="points">
+              <mxPoint x="138" y="780"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2v1esG3-C-0sFDUlo4-p-130" value="refresh()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-1090" y="1569" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="2v1esG3-C-0sFDUlo4-p-137" value="1.先执行&amp;nbsp;ConfigurationClassPostProcessor&lt;br&gt;2.再执行&amp;nbsp;&lt;span style=&quot;font-size: 9pt ; background-color: rgb(228 , 228 , 255) ; font-family: &amp;#34;source code pro&amp;#34;&quot;&gt;PropertySourceOrderingPostProcessor&lt;/span&gt;&amp;nbsp;&lt;br&gt;&lt;br&gt;所以要使用自定义配置中心，需要在这之前将注入environment , &lt;br&gt;方法是实现自义&amp;nbsp;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;EnvironmentPostProcessor&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
+          <mxGeometry x="-830" y="1560" width="280" height="170" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -2192,6 +2208,14 @@
         <mxCell id="pm2FoAH4OeNIqDgj6Gee-9" value="4.投票选举队列里的请求全部处理完后，&lt;br&gt;直到得到超过半数的有效票后，本轮投票选举完成，记录该轮投票超过半数的提议的leader 为最终选举的leader 。修改本节点状态，如果myid=投票leader的id,本节点状态改为LEADING，否则改为 FOLLOWING.。&lt;br&gt;本方法返回。" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="QWFmbw1r0KqvF3veve1Z-1">
           <mxGeometry x="563" y="2190" width="245" height="110" as="geometry"/>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pRKhL6sBHn03NfLszMMn" name="springcloud">
+    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="kXG4r96sKC9Ua749zj5q-0"/>
+        <mxCell id="kXG4r96sKC9Ua749zj5q-1" parent="kXG4r96sKC9Ua749zj5q-0"/>
       </root>
     </mxGraphModel>
   </diagram>
