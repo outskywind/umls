@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-28T07:22:54.833Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="fCqf9zjz1ksEsJVvkqqu" version="12.3.0" type="github" pages="10">
+<mxfile modified="2019-11-28T07:23:30.572Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="vQBfXL3487AT_IxeNx4f" version="12.3.0" type="github" pages="10">
   <diagram id="c8f99262-a85c-8a7f-60a9-6ab50372dd61" name="IOC sequence--spring-boot">
     <mxGraphModel dx="3747" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
@@ -231,7 +231,7 @@
         <mxCell id="2v1esG3-C-0sFDUlo4-p-130" value="refresh()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-1090" y="1569" width="60" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="2v1esG3-C-0sFDUlo4-p-137" value="1.先执行&amp;nbsp;ConfigurationClassPostProcessor&lt;br&gt;2.再执行&amp;nbsp;&lt;span style=&quot;font-size: 9pt ; background-color: rgb(228 , 228 , 255) ; font-family: &amp;#34;source code pro&amp;#34;&quot;&gt;PropertySourceOrderingPostProcessor&lt;/span&gt;&amp;nbsp;&lt;br&gt;&lt;br&gt;所以要使用自定义配置中心，需要在这之前将注入environment , &lt;br&gt;方法是实现自义&amp;nbsp;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;EnvironmentPostProcessor&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
+        <mxCell id="2v1esG3-C-0sFDUlo4-p-137" value="1.先执行&amp;nbsp;ConfigurationClassPostProcessor&lt;br&gt;2.再执行&amp;nbsp;&lt;span style=&quot;font-size: 9pt ; background-color: rgb(228 , 228 , 255) ; font-family: &amp;#34;source code pro&amp;#34;&quot;&gt;PropertySourceOrderingPostProcessor&lt;/span&gt;&amp;nbsp;&lt;br&gt;&lt;br&gt;所以要使用自定义配置中心，需要在这之前将注入environment , &lt;br&gt;方法是实现自义&amp;nbsp;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;EnvironmentPostProcessor，并且最先优先级执行&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
           <mxGeometry x="-830" y="1560" width="280" height="170" as="geometry"/>
         </mxCell>
       </root>
