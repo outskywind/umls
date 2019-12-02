@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-29T10:57:57.592Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="x2Fzg_JRuvO3zJxfpBl4" version="12.3.0" type="github" pages="10">
+<mxfile modified="2019-12-02T10:35:40.928Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="76ndnwF9EUabAklsWEEY" version="12.3.0" type="github" pages="10">
   <diagram id="c8f99262-a85c-8a7f-60a9-6ab50372dd61" name="IOC sequence--spring-boot">
     <mxGraphModel dx="3747" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
@@ -2315,7 +2315,7 @@
         <mxCell id="b0HHK2_4nXFx6XnmWiR--38" value="Feign" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="kXG4r96sKC9Ua749zj5q-1">
           <mxGeometry x="890" y="570" width="50" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="b0HHK2_4nXFx6XnmWiR--45" value="默认IOException异常才重试策略：&lt;br&gt;其实间隔100ms ,1.5倍增长，最大间隔1s,最多试5次" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="kXG4r96sKC9Ua749zj5q-1">
+        <mxCell id="b0HHK2_4nXFx6XnmWiR--45" value="默认IOException异常才重试策略：&lt;br&gt;起始间隔100ms ,1.5倍增长，最大间隔1s,最多试5次" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="kXG4r96sKC9Ua749zj5q-1">
           <mxGeometry x="1050" y="680" width="110" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="rSCBIoIUMMBmpvgodXNU-0" value="«interface»&lt;br&gt;&lt;b&gt;Client&lt;/b&gt;" style="html=1;" vertex="1" parent="kXG4r96sKC9Ua749zj5q-1">
