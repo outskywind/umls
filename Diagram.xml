@@ -1,4 +1,4 @@
-<mxfile modified="2019-12-04T10:46:11.326Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="eyERWkpI63ZCB2I-iAil" version="12.3.0" type="github" pages="10">
+<mxfile modified="2019-12-04T10:46:31.698Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="qHXjh7gyu9GAca4ynW3R" version="12.3.0" type="github" pages="10">
   <diagram id="c8f99262-a85c-8a7f-60a9-6ab50372dd61" name="IOC sequence--spring-boot">
     <mxGraphModel dx="3747" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
@@ -2562,6 +2562,9 @@
         </mxCell>
         <mxCell id="rSCBIoIUMMBmpvgodXNU-76" value="重试策略" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="kXG4r96sKC9Ua749zj5q-1">
           <mxGeometry x="630" y="359" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="rSCBIoIUMMBmpvgodXNU-78" value="&lt;span style=&quot;font-weight: 700&quot;&gt;ApacheHttpClient&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="kXG4r96sKC9Ua749zj5q-1">
+          <mxGeometry x="1010" y="170" width="120" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
