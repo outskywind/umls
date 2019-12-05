@@ -1,4 +1,4 @@
-<mxfile modified="2019-12-05T10:10:57.666Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="SiHrgz9U18WTQrAAWo8x" version="12.3.0" type="github" pages="10">
+<mxfile modified="2019-12-05T10:29:45.484Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="bNjI94h79pw58-h1AigL" version="12.3.0" type="github" pages="10">
   <diagram id="c8f99262-a85c-8a7f-60a9-6ab50372dd61" name="IOC sequence--spring-boot">
     <mxGraphModel dx="3747" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
@@ -2842,8 +2842,11 @@
         <mxCell id="rSCBIoIUMMBmpvgodXNU-175" value="CompositePredicate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="kXG4r96sKC9Ua749zj5q-1">
           <mxGeometry x="1681" y="170" width="120" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="rSCBIoIUMMBmpvgodXNU-176" value="RR 算法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="kXG4r96sKC9Ua749zj5q-1">
+        <mxCell id="rSCBIoIUMMBmpvgodXNU-176" value="RR算法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="kXG4r96sKC9Ua749zj5q-1">
           <mxGeometry x="1690" y="324" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="rSCBIoIUMMBmpvgodXNU-179" value="默认的负载策略，&lt;br&gt;只有一个zone 时，采用RR" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="kXG4r96sKC9Ua749zj5q-1">
+          <mxGeometry x="1420" y="379" width="160" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
