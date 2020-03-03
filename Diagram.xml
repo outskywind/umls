@@ -1,4 +1,4 @@
-<mxfile modified="2020-03-02T07:48:42.759Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="pap5PvPzjr_gARzIdInV" version="12.7.9" type="github" pages="11">
+<mxfile modified="2020-03-03T03:57:52.854Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="kad70gHxxrdKIrZKQutl" version="12.7.9" type="github" pages="11">
   <diagram id="c8f99262-a85c-8a7f-60a9-6ab50372dd61" name="IOC sequence--spring-boot">
     <mxGraphModel dx="3761" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
@@ -5458,74 +5458,123 @@
     
   </diagram>
   <diagram id="770sICzGHlJS_ZusO10f" name="Page-8">
+    
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      
       <root>
+        
         <mxCell id="MRRG2P52acwuyj3lXWqH-0" />
+        
         <mxCell id="MRRG2P52acwuyj3lXWqH-1" parent="MRRG2P52acwuyj3lXWqH-0" />
+        
         <mxCell id="Rj-me5a3kZtx2tQQzWgy-1" value="架构图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="MRRG2P52acwuyj3lXWqH-1" vertex="1">
+          
           <mxGeometry x="242" y="452" width="50" height="20" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="Rj-me5a3kZtx2tQQzWgy-2" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;LocalFileConfigRepository&lt;/pre&gt;" style="html=1;" parent="MRRG2P52acwuyj3lXWqH-1" vertex="1">
+          
           <mxGeometry x="520" y="520" width="180" height="50" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="Rj-me5a3kZtx2tQQzWgy-3" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;DefaultConfig&lt;/pre&gt;" style="html=1;" parent="MRRG2P52acwuyj3lXWqH-1" vertex="1">
+          
           <mxGeometry x="360" y="520" width="110" height="50" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="Rj-me5a3kZtx2tQQzWgy-4" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;RemoteConfigRepository&lt;/pre&gt;" style="html=1;" parent="MRRG2P52acwuyj3lXWqH-1" vertex="1">
+          
           <mxGeometry x="800" y="520" width="170" height="50" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="Rj-me5a3kZtx2tQQzWgy-5" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;m_configCache&lt;/span&gt;&lt;/pre&gt;" style="html=1;" parent="MRRG2P52acwuyj3lXWqH-1" vertex="1">
+          
           <mxGeometry x="840" y="437" width="110" height="50" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="Rj-me5a3kZtx2tQQzWgy-6" value="java 堆缓存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="MRRG2P52acwuyj3lXWqH-1" vertex="1">
+          
           <mxGeometry x="947" y="459" width="80" height="20" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="Rj-me5a3kZtx2tQQzWgy-7" value="JDK&amp;nbsp; ServiceLoader&amp;nbsp; 机制" style="html=1;" parent="MRRG2P52acwuyj3lXWqH-1" vertex="1">
+          
           <mxGeometry x="250" y="640" width="200" height="50" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="Rj-me5a3kZtx2tQQzWgy-8" value="/META-INF/services/ 接口名 文件 读取解析 实现类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="MRRG2P52acwuyj3lXWqH-1" vertex="1">
+          
           <mxGeometry x="450" y="655" width="280" height="20" as="geometry" />
+          
         </mxCell>
+        
       </root>
+      
     </mxGraphModel>
+    
   </diagram>
   <diagram id="ChPwC_RaLWsx0WNJM0UR" name="dubbo">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="RUvDno0oauXvgmehuS8g-0" />
         <mxCell id="RUvDno0oauXvgmehuS8g-1" parent="RUvDno0oauXvgmehuS8g-0" />
-        <mxCell id="gHPOw0evgwPdAF_SNMjm-0" value="dubbo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="RUvDno0oauXvgmehuS8g-1">
+        <mxCell id="gHPOw0evgwPdAF_SNMjm-0" value="dubbo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="RUvDno0oauXvgmehuS8g-1" vertex="1">
           <mxGeometry x="54" y="56" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gHPOw0evgwPdAF_SNMjm-1" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;DubboAutoConfiguration&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="RUvDno0oauXvgmehuS8g-1">
+        <mxCell id="gHPOw0evgwPdAF_SNMjm-1" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;DubboAutoConfiguration&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="RUvDno0oauXvgmehuS8g-1" vertex="1">
           <mxGeometry x="70" y="120" width="180" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="gHPOw0evgwPdAF_SNMjm-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="gHPOw0evgwPdAF_SNMjm-1">
+        <mxCell id="gHPOw0evgwPdAF_SNMjm-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="gHPOw0evgwPdAF_SNMjm-1" vertex="1">
           <mxGeometry x="85" y="110" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gHPOw0evgwPdAF_SNMjm-3" value="&amp;nbsp;spring boot 自动配置机制， spring.factories 文件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="RUvDno0oauXvgmehuS8g-1">
+        <mxCell id="gHPOw0evgwPdAF_SNMjm-3" value="&amp;nbsp;spring boot 自动配置机制， spring.factories 文件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="RUvDno0oauXvgmehuS8g-1" vertex="1">
           <mxGeometry x="45" y="100" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gHPOw0evgwPdAF_SNMjm-8" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;ServiceAnnotationBeanPostProcessor&lt;/pre&gt;" style="html=1;" vertex="1" parent="RUvDno0oauXvgmehuS8g-1">
+        <mxCell id="gHPOw0evgwPdAF_SNMjm-8" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;ServiceAnnotationBeanPostProcessor&lt;/pre&gt;" style="html=1;" parent="RUvDno0oauXvgmehuS8g-1" vertex="1">
           <mxGeometry x="190" y="280" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gHPOw0evgwPdAF_SNMjm-9" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;ReferenceAnnotationBeanPostProcessor&lt;/pre&gt;" style="html=1;" vertex="1" parent="RUvDno0oauXvgmehuS8g-1">
+        <mxCell id="gHPOw0evgwPdAF_SNMjm-9" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;ReferenceAnnotationBeanPostProcessor&lt;/pre&gt;" style="html=1;" parent="RUvDno0oauXvgmehuS8g-1" vertex="1">
           <mxGeometry x="190" y="340" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gHPOw0evgwPdAF_SNMjm-10" value="注册 2个 BeanPostProcessor 处理&amp;nbsp;&lt;br&gt;&amp;nbsp;@Service 注解 和&amp;nbsp; @Reference 注解" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="RUvDno0oauXvgmehuS8g-1">
-          <mxGeometry x="170" y="240" width="220" height="30" as="geometry" />
+        <mxCell id="gHPOw0evgwPdAF_SNMjm-10" value="注册 2个&amp;nbsp;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;BeanDefinitionRegistryPostProcessor&lt;br&gt;&lt;/span&gt;&lt;span&gt;扫描处理&amp;nbsp;&lt;/span&gt;&amp;nbsp;@Service 注解 和&amp;nbsp; @Reference 注解" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="RUvDno0oauXvgmehuS8g-1" vertex="1">
+          <mxGeometry x="160" y="240" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gHPOw0evgwPdAF_SNMjm-11" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;DubboConfigurationProperties&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="RUvDno0oauXvgmehuS8g-1">
+        <mxCell id="gHPOw0evgwPdAF_SNMjm-11" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;DubboConfigurationProperties&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="RUvDno0oauXvgmehuS8g-1" vertex="1">
           <mxGeometry x="485" y="120" width="230" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="gHPOw0evgwPdAF_SNMjm-14" value="RegistryConfig" style="html=1;" vertex="1" parent="gHPOw0evgwPdAF_SNMjm-11">
+        <mxCell id="gHPOw0evgwPdAF_SNMjm-14" value="RegistryConfig" style="html=1;" parent="gHPOw0evgwPdAF_SNMjm-11" vertex="1">
           <mxGeometry x="120" y="80" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gHPOw0evgwPdAF_SNMjm-15" value="ProtocolConfig" style="html=1;" vertex="1" parent="RUvDno0oauXvgmehuS8g-1">
+        <mxCell id="gHPOw0evgwPdAF_SNMjm-15" value="ProtocolConfig" style="html=1;" parent="RUvDno0oauXvgmehuS8g-1" vertex="1">
           <mxGeometry x="605" y="260" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gHPOw0evgwPdAF_SNMjm-22" value="spring boot ConfigurationProperties 注解进行Config Bean的生成&lt;br&gt;并通过@PostConstruct 方法添加到 全局缓存 configManager ,&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="RUvDno0oauXvgmehuS8g-1">
+        <mxCell id="gHPOw0evgwPdAF_SNMjm-22" value="spring boot ConfigurationProperties 注解进行Config Bean的生成&lt;br&gt;并通过@PostConstruct 方法添加到 全局缓存 configManager&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="RUvDno0oauXvgmehuS8g-1" vertex="1">
           <mxGeometry x="730" y="115" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zyX-YS9pMqBjJVjecm5X-0" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="RUvDno0oauXvgmehuS8g-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="640" as="sourcePoint" />
+            <mxPoint x="1010" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zyX-YS9pMqBjJVjecm5X-1" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="RUvDno0oauXvgmehuS8g-1">
+          <mxGeometry x="110" y="560" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="zyX-YS9pMqBjJVjecm5X-2" value="provider 暴露" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="RUvDno0oauXvgmehuS8g-1">
+          <mxGeometry x="40" y="500" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zyX-YS9pMqBjJVjecm5X-3" value="并且注册一个&amp;nbsp; ApplicationListener" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="RUvDno0oauXvgmehuS8g-1">
+          <mxGeometry x="190" y="400" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zyX-YS9pMqBjJVjecm5X-5" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;DubboBootstrapApplicationListener&lt;/pre&gt;" style="html=1;" vertex="1" parent="RUvDno0oauXvgmehuS8g-1">
+          <mxGeometry x="190" y="430" width="240" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
